@@ -56,7 +56,7 @@ Base Path’i Değiştirmek
 Vite: vite.config.js → repoName veya build sırasında GITHUB_REPOSITORY ortam değişkeni.
 Repo adı Portfolio değilse (örn. my-portfolio), repoName’i 'my-portfolio' yapın; base /my-portfolio/ olur.
 
-##Veri Güncelleme
+## Veri Güncelleme
 
 Tüm içerik src/data.js dosyasında. CV’nizi güncelledikçe bu dosyadaki data objesini düzenleyin:
 
