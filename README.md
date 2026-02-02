@@ -22,3 +22,17 @@ Frontend & Backend geliştirici portfolyo sitesi. React (Vite), Tailwind CSS, Fr
 ```bash
 npm install
 npm run dev
+
+GitHub Pages’e Yükleme
+
+Seçenek 1: GitHub Actions (önerilen)
+
+Repoyu GitHub’a push edin.
+
+Settings → Pages → Build and deployment → Source: “Deploy from a branch” seçin, Branch: gh-pages (klasör: / (root)).
+
+main seçiliyse sayfa beyaz kalır ve /src/main.jsx 404 hatası alırsınız — build çıktısı sadece gh-pages branch’inde olmalı.
+
+Actions sekmesinde “Deploy to GitHub Pages” workflow’unun yeşil (başarılı) çalıştığından emin olun.
+
+Seçenek 2: Manuel (gh-pages)
