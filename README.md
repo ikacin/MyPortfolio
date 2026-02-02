@@ -42,7 +42,7 @@ main seçiliyse sayfa beyaz kalır ve /src/main.jsx 404 hatası alırsınız —
 
 Actions sekmesinde “Deploy to GitHub Pages” workflow’unun yeşil (başarılı) çalıştığından emin olun.
 
-Seçenek 2: Manuel (gh-pages)
+##Seçenek 2: Manuel (gh-pages)
 
 ```bash
 npm run build
@@ -56,7 +56,7 @@ Base Path’i Değiştirmek
 Vite: vite.config.js → repoName veya build sırasında GITHUB_REPOSITORY ortam değişkeni.
 Repo adı Portfolio değilse (örn. my-portfolio), repoName’i 'my-portfolio' yapın; base /my-portfolio/ olur.
 
-Veri Güncelleme
+##Veri Güncelleme
 
 Tüm içerik src/data.js dosyasında. CV’nizi güncelledikçe bu dosyadaki data objesini düzenleyin:
 
@@ -73,7 +73,7 @@ education: Derece ve okul
 projects: Başlık, açıklama, etiketler, GitHub/Demo linkleri
 
 
-Proje Yapısı
+##Proje Yapısı
 
 src/App.jsx — Root layout, theme/locale wiring
 
@@ -90,7 +90,7 @@ src/translations.js — UI metinleri
 src/constants.js — STORAGE_KEYS, LOCALES, DEFAULT_LOCALE
 
 
-Tech Stack
+##Tech Stack
 
 React 18, Vite 5
 
